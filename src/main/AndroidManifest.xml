@@ -1,0 +1,14 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartcart">
+
+    <application
+        android:label="SmartCart"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".ItemActivity" />
+
+        <receiver android:name=".receivers.ReminderReceiver" />
+    </application>
+</manifest>
